@@ -6,7 +6,7 @@
 
 # Proyecto de automatización de pruebas para la aplicación web Urban Grocers, enfocado en validar flujos críticos del negocio como la creación de kits y el envío de solicitudes, asegurando la calidad y estabilidad del sistema.
 
-#\## Objetivo
+# \## Objetivo
 
 # \-Automatizar pruebas funcionales para:
 
