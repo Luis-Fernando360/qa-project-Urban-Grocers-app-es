@@ -4,7 +4,17 @@
 
 # \## Descripción
 
-# Este proyecto contiene pruebas automatizadas para la API de Urban Grocers. Las pruebas están diseñadas para validar los endpoints principales, asegurar la correcta integración del sistema y detectar posibles errores antes de su despliegue en producción.
+# Proyecto de automatización de pruebas para la aplicación web Urban Grocers, enfocado en validar flujos críticos del negocio como la creación de kits y el envío de solicitudes, asegurando la calidad y estabilidad del sistema.
+
+#\## Objetivo
+
+# \-Automatizar pruebas funcionales para:
+
+# \- Reducir pruebas manuales repetitivas
+
+# \- Detectar defectos tempranos
+
+# \- Garantizar flujos clave del usuario
 
 # 
 
@@ -20,11 +30,33 @@
 
 # \- Python
 
+# \- Selenium Web Driver
+
 # \- Pytest
+
+# \- Web Driver Manager
+
+# \- Page Objet Model (POM)
 
 # \- Requests
 
 # 
+
+# \## Casos de prueba automatizados
+
+# \- Creación de kits con nombre válido
+
+# \- Envío de solicitudes
+
+# \- Validación de elementos visibles
+
+# \- Manejo de esperas explícitas
+
+# \- Control de errores comunes de UI
+
+#
+
+# \## Ejecución del Proyecto
 
 # \## Instalación
 
@@ -33,6 +65,18 @@
 # &nbsp;  ```bash
 
 # &nbsp;  git clone https://github.com/tu-usuario/urban-grocers-api-tests.git
+
+# 2\. Ejecutar pruebas:
+
+# Pytest
+
+# \## Estructura del Proyecto
+
+# \- tests/      -> Casos de prueba
+# \- pages/      -> Lógica de interacción con la UI
+# \- data/       -> Datos de prueba
+# \- config/     -> Configuración del entorno
+
 
 # 
 
@@ -90,4 +134,5 @@
 
 # \## Autor
 
-# Luis Fernando López Gtz
+# Luis Fernando López Gutiérrez
+# QA Automation Engineer
