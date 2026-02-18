@@ -1,4 +1,4 @@
-Proyecto Sprint 7 Urban Grocers - Pruebas de API
+# \# Proyecto Sprint 7 Urban Grocers - Pruebas de API
 
 # 
 
@@ -20,9 +20,9 @@ Garantizar flujos clave del usuario
 
 # \# Documentación
 
-# \- Fuente: \[apiDoc de Urban Grocers]
+- Fuente: \[apiDoc de Urban Grocers]
 
-# \- Detalles de los endpoints, parámetros y respuestas.
+- Detalles de los endpoints, parámetros y respuestas.
 
 # 
 
