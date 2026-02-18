@@ -1,20 +1,20 @@
-# \# Proyecto Urban Grocers - Pruebas de API
+Proyecto Sprint 7 Urban Grocers - Pruebas de API
 
 # 
 
-# \## Descripción
+# \## Descripción del proyecto
 
-# Proyecto de automatización de pruebas para la aplicación web Urban Grocers, enfocado en validar flujos críticos del negocio como la creación de kits y el envío de solicitudes, asegurando la calidad y estabilidad del sistema.
+Automatización de pruebas para la aplicación web Urban Grocers, enfocado en validar flujos críticos del negocio como la creación de kits y el envío de solicitudes, asegurando la calidad y estabilidad del sistema.
 
 # \## Objetivo
 
-# \-Automatizar pruebas funcionales para:
+Automatizar pruebas funcionales para:
 
-# \- Reducir pruebas manuales repetitivas
+Reducir pruebas manuales repetitivas
 
-# \- Detectar defectos tempranos
+Detectar defectos tempranos
 
-# \- Garantizar flujos clave del usuario
+Garantizar flujos clave del usuario
 
 # 
 
@@ -28,31 +28,31 @@
 
 # \## Tecnologías utilizadas
 
-# \- Python
+- Python
 
-# \- Selenium Web Driver
+- Selenium Web Driver
 
-# \- Pytest
+- Pytest
 
-# \- Web Driver Manager
+- Web Driver Manager
 
-# \- Page Objet Model (POM)
+- Page Objet Model (POM)
 
-# \- Requests
+- Requests
 
 # 
 
 # \## Casos de prueba automatizados
 
-# \- Creación de kits con nombre válido
+- Creación de kits con nombre válido
 
-# \- Envío de solicitudes
+- Envío de solicitudes
 
-# \- Validación de elementos visibles
+- Validación de elementos visibles
 
-# \- Manejo de esperas explícitas
+- Manejo de esperas explícitas
 
-# \- Control de errores comunes de UI
+- Control de errores comunes de UI
 
 #
 
