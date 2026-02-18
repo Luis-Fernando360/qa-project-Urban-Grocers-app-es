@@ -1,4 +1,4 @@
-# \# Proyecto Sprint 7 Urban Grocers - Pruebas de API
+# Proyecto Sprint 7 Urban Grocers - Pruebas de API
 
 # 
 
@@ -58,24 +58,24 @@ Garantizar flujos clave del usuario
 
 # \# Ejecución del Proyecto
 
-# \# Instalación
+\# Instalación
 
-# 1\. Clonar el repositorio:
+ 1\. Clonar el repositorio:
 
-# &nbsp;  ```bash
+ &nbsp;  ```bash
 
-# &nbsp;  git clone https://github.com/tu-usuario/urban-grocers-api-tests.git
+ &nbsp;  git clone https://github.com/tu-usuario/urban-grocers-api-tests.git
 
-# 2\. Ejecutar pruebas:
+ 2\. Ejecutar pruebas:
 
-# Pytest
+Pytest
 
-# \# Estructura del Proyecto
+# Estructura del Proyecto
 
-# \- tests/      -> Casos de prueba
-# \- pages/      -> Lógica de interacción con la UI
-# \- data/       -> Datos de prueba
-# \- config/     -> Configuración del entorno
+\- tests/      -> Casos de prueba
+\- pages/      -> Lógica de interacción con la UI
+\- data/       -> Datos de prueba
+\- config/     -> Configuración del entorno
 
 
 # 
@@ -84,51 +84,51 @@ Garantizar flujos clave del usuario
 
 # 1\. BUG 1 — La API acepta nombre vacío:
 
-# \- Entrada: {"name": ""}
+\- Entrada: {"name": ""}
 
-# \- Resultado esperado: 400 Bad Request
+\- Resultado esperado: 400 Bad Request
 
-# \- Resultado real: 201 Created
+\- Resultado real: 201 Created
 
-# \- Severidad: Media
+\- Severidad: Media
 
-# \- Descripción: El servidor permite crear kits sin nombre, lo cual no debería ser válido.
+\- Descripción: El servidor permite crear kits sin nombre, lo cual no debería ser válido.
 
 # 2\.BUG 2 — La API acepta nombres mayores a 511 caracteres:
 
-# \- Entrada: {"name": "a" * 512}
+\- Entrada: {"name": "a" * 512}
 
-# \- Resultado esperado: 400 Bad Request
+\- Resultado esperado: 400 Bad Request
 
-# \- Resultado real: 201 Created
+\- Resultado real: 201 Created
 
-# \- Severidad: Alta
+\- Severidad: Alta
 
-# \- Descripción: El servidor no valida la longitud máxima permitida.
+\- Descripción: El servidor no valida la longitud máxima permitida.
 
 # 3\. BUG 3 — La API devuelve 500 cuando falta el campo name:
 
-# \- Entrada: {}
+\- Entrada: {}
 
-# \- Resultado esperado: 400 Bad Request
+\- Resultado esperado: 400 Bad Request
 
-# \- Resultado real: 500 Internal Server Error
+\- Resultado real: 500 Internal Server Error
 
-# \- Severidad: Crítica
+\- Severidad: Crítica
 
-# \- Descripción: El servidor se rompe al recibir un JSON sin el parámetro obligatorio.
+\- Descripción: El servidor se rompe al recibir un JSON sin el parámetro obligatorio.
 
 # 4\. BUG 4 — La API acepta valores no string:
 
-# \- Entrada: {"name": 123}
+\- Entrada: {"name": 123}
 
-# \- Resultado esperado: 400 Bad Request
+\- Resultado esperado: 400 Bad Request
 
-# \- Resultado real: 201 Created
+\- Resultado real: 201 Created
 
-# \- Severidad: Media
+\- Severidad: Media
 
-# \- Descripción: El servidor no valida el tipo de dato del parámetro name.
+\- Descripción: El servidor no valida el tipo de dato del parámetro name.
 
 #
 
