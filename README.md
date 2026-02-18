@@ -10,11 +10,11 @@ Automatización de pruebas para la aplicación web Urban Grocers, enfocado en va
 
 Automatizar pruebas funcionales para:
 
-Reducir pruebas manuales repetitivas
+- Reducir pruebas manuales repetitivas
 
-Detectar defectos tempranos
+- Detectar defectos tempranos
 
-Garantizar flujos clave del usuario
+- Garantizar flujos clave del usuario
 
 # 
 
