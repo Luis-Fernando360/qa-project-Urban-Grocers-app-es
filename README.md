@@ -2,11 +2,11 @@ Proyecto Sprint 7 Urban Grocers - Pruebas de API
 
 # 
 
-# \## Descripción del proyecto
+# \# Descripción del proyecto
 
 Automatización de pruebas para la aplicación web Urban Grocers, enfocado en validar flujos críticos del negocio como la creación de kits y el envío de solicitudes, asegurando la calidad y estabilidad del sistema.
 
-# \## Objetivo
+# \# Objetivo
 
 Automatizar pruebas funcionales para:
 
@@ -18,7 +18,7 @@ Garantizar flujos clave del usuario
 
 # 
 
-# \## Documentación
+# \# Documentación
 
 # \- Fuente: \[apiDoc de Urban Grocers]
 
@@ -26,7 +26,7 @@ Garantizar flujos clave del usuario
 
 # 
 
-# \## Tecnologías utilizadas
+# \# Tecnologías utilizadas
 
 - Python
 
@@ -42,7 +42,7 @@ Garantizar flujos clave del usuario
 
 # 
 
-# \## Casos de prueba automatizados
+# \# Casos de prueba automatizados
 
 - Creación de kits con nombre válido
 
@@ -56,9 +56,9 @@ Garantizar flujos clave del usuario
 
 #
 
-# \## Ejecución del Proyecto
+# \# Ejecución del Proyecto
 
-# \## Instalación
+# \# Instalación
 
 # 1\. Clonar el repositorio:
 
@@ -70,7 +70,7 @@ Garantizar flujos clave del usuario
 
 # Pytest
 
-# \## Estructura del Proyecto
+# \# Estructura del Proyecto
 
 # \- tests/      -> Casos de prueba
 # \- pages/      -> Lógica de interacción con la UI
@@ -80,7 +80,7 @@ Garantizar flujos clave del usuario
 
 # 
 
-# \## Bugs encontrados
+# \# Bugs encontrados
 
 # 1\. BUG 1 — La API acepta nombre vacío:
 
@@ -132,7 +132,7 @@ Garantizar flujos clave del usuario
 
 #
 
-# \## Autor
+# \# Autor
 
 # Luis Fernando López Gutiérrez
 # QA Automation Engineer
